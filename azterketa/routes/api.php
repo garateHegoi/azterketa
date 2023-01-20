@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HegaldiakController;
+use App\Http\Controllers\hegaldiakAPIController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +15,4 @@ use App\Http\Controllers\HegaldiakController;
 |
 */
 
-Route::apiResource('hegaldia', HegaldiakController::class);
+Route::apiResource('hegaldiak', hegaldiakAPIController::class);

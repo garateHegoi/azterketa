@@ -20,6 +20,14 @@ return new class extends Migration
             $table->string('irteeraData');
             $table->string('iraupena');
         });
+
+        Schema::create('hegaldiak_a_p_i_s', function (Blueprint $table) {
+            $table->id();
+            $table->string('irteera');
+            $table->string('helmuga');
+            $table->string('irteeraData');
+            $table->string('iraupena');
+        });
     }
 
     /**
